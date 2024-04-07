@@ -1,22 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta
-      name="viewport"
-      content="width=device-width, 
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta
+			name="viewport"
+			content="width=device-width, 
       initial-scale=1.0, 
       minimum-scale=1.0, 
       height=device-height,   
       viewport-fit=cover, 
       user-scalable=yes, 
       shrink-to-fit=no"
-    />
-    <title>Best App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+		/>
+		<!-- Настройки страницы -->
+		<title>Best App</title>
+		<meta name="title" content="Best App" />
+		<meta
+			name="description"
+			content="Это страница лучшего вашего приложения!."
+		/>
+
+		<!-- Здесь SEO / Open Graph  -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://example.com" />
+		<meta property="og:title" content="Page Title" />
+		<meta property="og:description" content="Page description goes here." />
+		<meta property="og:image" content="https://example.com/image.jpg" />
+
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://example.com" />
+		<!-- Иконки вашего сайта -->
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/favicon-16x16.png"
+		/>
+		<!-- iOS Настройка -->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta
+			name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent"
+		/>
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+		<!-- Android Настройка -->
+		<meta name="theme-color" content="#ffffff" />
+		<link rel="manifest" href="/manifest.json" />
+	</head>
+	<body>
+		<noscript>
+			<div>
+				JavaScript is required for this application to work. Please
+				enable JavaScript in your browser settings.
+			</div>
+		</noscript>
+		<div id="root"></div>
+		<script async type="module" defer src="/src/main.jsx"></script>
+	</body>
 </html>
