@@ -2,14 +2,14 @@
 <div align="center">
   <h1>⚜️ React-boilerplate</h1>
 </div>
-Why ours?
- -- ✨ Forget about CSS, we're using SCOPED SCSS here.
- -- 📃 Cross-platform
- -- 🛸 We're using the new React Router, you should use it too!.
- -- 📂 File structure: a well-organized file structure will make navigating and maintaining your codebase easier
- -- 🗄️ Use Alias instead of long relative paths!
- -- 🚀 Thanks to SWC and Vite, your project runs even more efficiently!
- -- 📖 Ready-made basic-reset styles for your project
+ Why ours?
+ - ✨ Forget about CSS, we're using SCOPED SCSS here.
+ - 📃 Cross-platform
+ - 🛸 We're using the new React Router, you should use it too!.
+ - 📂 File structure: a well-organized file structure will make navigating and maintaining your codebase easier
+ - 🗄️ Use Alias instead of long relative paths!
+ - 🚀 Thanks to SWC and Vite, your project runs even more efficiently!
+ - 📖 Ready-made basic-reset styles for your project
 
 
 ## 💥 Start your journey now!
