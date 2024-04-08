@@ -1,42 +1,81 @@
-# ⚜️ -| React-boilerplate
 
+<div align="center">
+  <h1>⚜️ React-boilerplate</h1>
+</div>
 
-### ✨ -| Забудьте про CSS, Мы здесь используем SCSS SCOPED.
-### 📃 -| Кроссплатформенность
-### 🛸 -| Мы используем новый React Router, вам стоит его использовать!.
-### 📂 -| Файловая структура: хорошо организованная файловая структура облегчит навигацию и сопровождение вашей кодовой базы
-### 🗄️ -| Используйте Alias вместо относительных длинных путей!
-### 🚀 -| Благодаря SWC и Vite ваш проект работает еще более эффективнее!
-### 📖 -| Готовые базовые-reset стили для вашего проекта
+### ✨ Forget about CSS, we're using SCOPED SCSS here.
 
+### 📃 Cross-platform
 
-## 💥  Начните свою прямую сейчас! 
-Скопируйте себе все файлы
+### 🛸 We're using the new React Router, you should use it too!.
+
+### 📂 File structure: a well-organized file structure will make navigating and maintaining your codebase easier
+
+### 🗄️ Use Alias instead of long relative paths!
+
+### 🚀 Thanks to SWC and Vite, your project runs even more efficiently!
+
+### 📖 Ready-made basic-reset styles for your project
+
+## 💥 Start your journey now!
+
+Copy all the files to your repository:
+
 ```bash
-git clone  https://github.com/allfred1/React-boilerplate.git .
+git clone --no-create-directory https://github.com/allfred1/React-boilerplate.git .
 ```
-Установите себе все модули
+
+Install all the modules:
+
 ```bash
 npm i
 yarn
 bun i
-
 ```
-И запустите проект!
+
+And run the project!
+
 ```bash
 bun dev
 yarn dev
 npm run dev
 ```
-## Структура
 
-| тип        | Alias   | Содержание                            |
-|------------|---------|---------------------------------------|
-| stylesheet | @styles | Глобальные стили для приложения       |
-| containers | @page   | Здесь будут ваши папки со страницами! |
-| content    | @vault  | Здесь провайдеры useContext           |
-| utils      | @noda   | Утилиты и прочий NodeJS-код           |
-| assets     | @assets |                                       |
-| components | @comp   | Компоненты приложения.                |
-| router     | none    | Адреса ваших страниц                  |
+## Structure
 
+| Type | Alias | Content |
+|------|-------|---------|
+| stylesheet | @styles | Global styles for the application |
+| containers | @page | Here you'll find your page folders! |
+| content | @vault | Here are the useContext providers |
+| utils | @noda | Utilities and other NodeJS-related code |
+| assets | @assets | - |
+| components | @comp | Application components |
+| router | none | Your page routes |
+
+<style>
+  h1, h3 {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  pre {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+</style>
