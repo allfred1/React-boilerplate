@@ -1,0 +1,8 @@
+smol = false
+telemetry = false
+[install]
+optional = true
+dev = true
+peer = true
+auto = "auto"
+

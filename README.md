@@ -18,9 +18,14 @@ git clone --no-create-directory https://github.com/allfred1/React-boilerplate.gi
 Установите себе все модули
 ```bash
 npm i
+yarn
+bun i
+
 ```
 И запустите проект!
 ```bash
+bun dev
+yarn dev
 npm run dev
 ```
 ## Структура
