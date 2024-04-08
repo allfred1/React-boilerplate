@@ -13,7 +13,7 @@
 ## 💥  Начните свою прямую сейчас! 
 Скопируйте себе все файлы
 ```bash
-git clone --no-create-directory https://github.com/allfred1/React-boilerplate.git .
+git clone  https://github.com/allfred1/React-boilerplate.git .
 ```
 Установите себе все модули
 ```bash
